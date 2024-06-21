@@ -1,0 +1,15 @@
+@keyframes gamingColor {
+    0% { color: #FF0000; }     /* 赤 */
+    16.66% { color: #FFA500; } /* オレンジ */
+    33.32% { color: #FFFF00; } /* 黄 */
+    49.98% { color: #008000; } /* 緑 */
+    66.64% { color: #0000FF; } /* 青 */
+    83.30% { color: #4B0082; } /* インディゴ */
+    100% { color: #EE82EE; }   /* 紫 */
+}
+
+.gaming-text {
+    font-size: 3em;
+    font-weight: bold;
+    animation: gamingColor 3s linear infinite;
+}
