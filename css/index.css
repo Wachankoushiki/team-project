@@ -11,13 +11,13 @@ body {
     flex: 1;
 }
 .left-side {
-    width: 30%; /* 左の欄の幅を30%に設定 */
+    width: 20%; /* 左の欄の幅を30%に設定 */
     padding: 20px;
     border-right: 2px solid #000;
     box-sizing: border-box;
 }
 .right-side {
-    width: 70%; /* 右の欄の幅を70%に設定 */
+    width: 80%; /* 右の欄の幅を70%に設定 */
     padding: 20px;
     box-sizing: border-box;
     display: flex;
